@@ -1,5 +1,4 @@
 def encrypt(string, shift):
- 
   cipher = ''
   for char in string: 
     if char == ' ':
