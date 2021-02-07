@@ -43,7 +43,7 @@ def cesar(text):
         a+=1
         tab[position][1] = a 
 
-    #### Remplacer le nb de repetition vc % 
+    #### convertir le nombre de repetition en % pourcentage 
     
     len_net = len(text) - space
 
