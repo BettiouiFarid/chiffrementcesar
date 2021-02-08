@@ -50,11 +50,11 @@ def cesar(text):
     for i in tab : 
 
             i[1]= format(int(i[1])/len_net,'.3f')
-    print(tab)
+    'print(tab)'
     tab.sort(key=lambda x: x[1],reverse=True)
 
     
-    print(tab)
+    'print(tab)'
 
     ##### lettre of original_tab to tab #####
     i = 0
@@ -99,7 +99,7 @@ def cesar(text):
             
             else : 
                 message += chr(a)
-        
+        print("\n key =",cle)
         print(message)
         print()
 
